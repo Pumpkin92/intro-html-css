@@ -1,0 +1,112 @@
+body {
+  background: linear-gradient(to top, #5f72bd 0%, #9b23ea 100%);
+}
+.container {
+  background-color: #752ca5;
+    color: white;
+  margin: 10%;
+  margin-top: 5%;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 10px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  grid-template-columns: 50px 50px 50px 50px;
+  grid-template-rows: auto;
+  grid-template-areas: 
+    "grid-header grid-header grid-header grid-header"
+    "grid-nav grid-nav grid-nav grid-nav"
+    "main-section main-section main-section main-section"
+    "likes tara-picture tara-picture dislikes"
+}
+
+container > div {
+    background-color: #8ca0ff;
+  width: 50px;
+  height: 50px
+}
+
+h1 {
+  text-align: center;
+  font-size: 70px;
+  font-family: "Acme", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+
+nav {
+  text-align: center;
+  
+}
+
+a {
+    color: white;
+}
+
+img {
+  border: 1px solid pink;
+}
+.gale-picture {
+  
+  width: 30%;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+  
+}
+
+h2 {
+  
+  text-align: center;
+  
+  font-family: "Acme", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.gale-bio {
+    text-align: center;
+  
+ 
+}
+
+.tara-picture {
+  
+  border-radius: 100px;
+}
+
+.gale-list-title{
+ 
+  font-family: "Acme", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.grid-header{
+    grid-area: grid-header;
+}
+.nav{
+    grid-area: grid-nav;
+}
+.main-section{
+    grid-area: main-section;
+}
+.likes {
+    grid-area: likes;
+}
+.tara-picture{
+    grid-area: tara-picture;
+}
+.dislikes{
+    grid-area: dislikes;
+}
+
+
+
+
+
+
+
+
