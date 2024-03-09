@@ -1,0 +1,135 @@
+body {
+  background: linear-gradient(to top, #5f72bd 0%, #9b23ea 100%);
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  font-size: 80px;
+  font-family: "Acme", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  margin-bottom: -10px;
+}
+h2 {
+  text-align: center;
+
+  font-family: "Acme", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a {
+  color: white;
+  padding-right: 10px;
+}
+
+.gale-picture {
+  width: 30%;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.tara-picture {
+  border-radius: 8px;
+  width: 30%;
+}
+
+img {
+  border: 1px solid pink;
+}
+
+.gale-list-title {
+  font-family: "Acme", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+
+ul,
+ol {
+  font-family: "Acme", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+}
+
+.gale-bio {
+  font-family: "Acme", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.container {
+  background-color: #752ca5;
+  color: white;
+  margin: 10%;
+  margin-top: 5%;
+
+  border-radius: 8px;
+  padding: 10px;
+  padding-bottom: 50px;
+  box-shadow: 10px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "one one one one"
+    "two two two two"
+    "three three three three"
+    "four five five six";
+}
+
+.one {
+  grid-area: one;
+  text-align: center;
+}
+.two {
+  grid-area: two;
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 10px;
+}
+
+.three {
+  grid-area: three;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.four {
+  grid-area: four;
+  grid-column: span 2 / 3;
+  padding-left: 20%;
+}
+
+.five {
+  grid-area: five;
+}
+
+.six {
+  grid-area: six;
+  grid-column: span 2 / -1;
+  padding-left: 25%;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+footer {
+  text-align: center;
+  font-family: "Acme", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
